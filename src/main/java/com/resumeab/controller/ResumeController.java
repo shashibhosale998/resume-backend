@@ -13,7 +13,10 @@ import java.util.Map;
 
 @RestController
 @RequestMapping("/api/resume")
-@CrossOrigin("*")
+@CrossOrigin(origins = {
+	    "http://localhost:5173",
+	    "https://resume-analyzer-frontend-two.vercel.app"
+	})
 public class ResumeController {
 
     @Autowired
