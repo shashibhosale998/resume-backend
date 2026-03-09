@@ -15,7 +15,7 @@ import java.util.Map;
 @RequestMapping("/api/resume")
 @CrossOrigin(origins = {
 	    "http://localhost:5173",
-	    "https://resume-analyzer-frontend-two.vercel.app"
+	    "https://shashi-airesume.vercel.app"
 	})
 public class ResumeController {
 
